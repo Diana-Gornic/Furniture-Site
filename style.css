@@ -1,0 +1,80 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(site/img/bg1.png) no-repeat;
+	background-size: cover;
+}
+
+.login-box {
+	width: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: darkgrey;
+}
+
+.login-box h1 {
+	text-align: center;;
+	font-size: 18px;
+	border-bottom: 4px solid white;
+	margin-bottom: 10px;
+	padding: 7px 0;
+}
+
+
+.textbox {
+	width: 30%;
+	overflow: hidden;
+	font-size: 18px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid white;
+}
+
+.textbox input {
+	border: none; 
+	outline: none;
+	background: none;
+	color: darkgrey;
+	font-size: 18px;
+	width: 50%;
+	float: left;
+	margin: 0 10px;
+	padding: 13px 0;
+}
+
+.btn {
+	width: 100%;
+	background:none;
+	border:2px solid white;
+	color:white;
+	padding:15px;
+	margin-bottom: 15px;
+	font-size:18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.btn2 {
+	width: 30%;
+	background-color: white;
+	border:2px solid white;
+	color:white;
+	padding:15px;
+	margin-bottom: 15px;
+	font-size:18px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.textfield p{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 18px;
+	text-decoration-color: white;
+}
